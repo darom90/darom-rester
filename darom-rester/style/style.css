@@ -1,0 +1,50 @@
+.header-image{
+    height: 50vh;
+    background: url('https://cdn.pixabay.com/photo/2015/11/26/22/28/girl-1064664_960_720.jpg');
+    background-size: cover;
+    background-position: center 29%;
+}
+.cover{
+    height: 60vh;
+    background: rgba(0,0,0,0.9);
+}
+ul{
+    list-style-type:none ;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin: 0;
+}
+ul li{
+    padding: 20px;
+    text-transform: uppercase;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+   
+}
+.box{
+    margin-left: 100px;
+}
+.box h3{
+    color:#fff;
+    font-family: cursive;
+    font-size: 30px;
+}
+.box .btn{
+    width: 200px;
+    height: 50px;
+    font-size: 15PX;
+    color:#fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 40px;
+    border:none;
+    background: rgba(0,191,255,1);
+}
